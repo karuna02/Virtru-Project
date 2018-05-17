@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31351" started-at="2018-05-17T18:32:42Z" finished-at="2018-05-17T18:33:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31351" started-at="2018-05-17T18:32:42Z" finished-at="2018-05-17T18:33:13Z">
+      <class name="Test.EncryptedEmailTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Test.EncryptedEmailTest@29ee9faa]" name="initialize" is-config="true" duration-ms="6268" started-at="2018-05-17T18:32:42Z" finished-at="2018-05-17T18:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String)[pri:0, instance:Test.EncryptedEmailTest@29ee9faa]" name="basePageNavigation" duration-ms="23612" started-at="2018-05-17T18:32:48Z" data-provider="getData" finished-at="2018-05-17T18:33:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karunasagar0118@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.EncryptedEmailTest@29ee9faa]" name="teardown" is-config="true" duration-ms="1409" started-at="2018-05-17T18:33:12Z" finished-at="2018-05-17T18:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.EncryptedEmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
